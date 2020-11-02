@@ -1,0 +1,17 @@
+#footer-main {
+  position: fixed;
+  background-color: hsla(228,6%,17%,0.8);
+  color: hsla(105, 70%, 46%, 1);
+  border: solid 1px #333;
+  padding: 20px; 
+  width:100%;
+  bottom:0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;  
+}
+
+#footer-main a {
+    text-decoration: none;
+    color: hsla(105, 70%, 46%, 1);
+    text-align: center;
+}

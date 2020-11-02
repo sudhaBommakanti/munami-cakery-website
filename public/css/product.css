@@ -1,0 +1,43 @@
+div.images{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-left:0.7rem;
+}
+
+div.images img{
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px #888888;
+}
+
+h2 {
+    text-align: center;
+}
+
+.images figure {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 0;
+}
+
+.images figcaption {
+    border-radius: 10px;
+    bottom: -100px;
+    color: hsla(228, 16%, 17%, .8);
+    padding: 5px;
+    font-weight:bold;
+    font-size: 1.2rem;
+    line-height: 40px;
+    text-align: center;
+}
+
+.images figure:hover>figcaption {
+    bottom: 0px;
+}
+
+.weddingcakes {
+    margin-bottom:5rem;
+}

@@ -1,0 +1,27 @@
+h1 {
+    text-align: center;
+    font-size:26px;
+    color:#660066;
+}
+
+p {
+    font-size:18px;
+    font-family: 'helvetica';
+    color: hsla(228, 6%, 17%, 1);
+    text-align: center;
+}
+
+.home {
+        text-align: center;
+        margin:20px;    
+        padding: 7rem;         
+}
+
+.title {
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px #888888;
+}
+
